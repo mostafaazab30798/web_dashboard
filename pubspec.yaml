@@ -1,0 +1,25 @@
+name: managment_admin_panel
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cloud_firestore: ^5.6.8
+  http: ^1.4.0
+  firebase_core: ^3.13.1
+  intl: ^0.20.2
+  provider: ^6.1.5
+  archive: ^4.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
